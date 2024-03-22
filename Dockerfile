@@ -12,5 +12,6 @@ WORKDIR /app
 # Expose port 5000
 EXPOSE 5000
 
+
 # Start the application
 CMD ["flask", "run"]
